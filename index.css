@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(./imgs/bg-hero-desktop.svg);
+    background-size: cover;
+    background-color: hsl(193, 100%, 96%);
+    width: 100%;
+    height: 100vh;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
+
+button {
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 150px;
+    -webkit-box-shadow: -1px 0px 14px 0px rgba(207, 214, 222, 0.62);
+    -moz-box-shadow: -1px 0px 14px 0px rgba(179, 194, 210, 0.62);
+    box-shadow: -1px 0px 14px 0px rgba(140, 169, 201, 0.62);
+    background-color: white;
+}
+
+button:hover {
+    color: hsl(208, 11%, 55%)
+}
+
+img {
+    width: 200px;
+}
+
+main {
+    padding: 30px 70px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.hero-1 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.hero-1 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.hero-1 p {
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 35px;
+
+}
+
+.div1-btn {
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+}
+
+.div1-btn:hover {
+    color: white;
+    background-color: hsl(322, 98%, 81%);
+}
+
+.hero-2 {
+    width: 55%;
+}
+
+.hero-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.mid {
+
+    width: 100%;
+    height: auto;
+    padding: 80px 70px;
+}
+
+.mid-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 30%;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(125, 133, 140, 1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(125, 133, 140, 1);
+    box-shadow: 0px 0px 15px 0px rgba(125, 133, 140, 1);
+    margin-bottom: 55px
+}
+
+.mid-11 {
+    width: 50%;
+    padding: 70px;
+}
+
+.mid-11 h3 {
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mid-11 p {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
+
+}
+
+.mid-12 {
+    width: 50%;
+    padding: 20px 50px;
+
+}
+
+.mid-12 img {
+    float: right;
+    height: 100%;
+    width: 80%;
+}
