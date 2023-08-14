@@ -100,7 +100,8 @@ main {
 
     width: 100%;
     height: auto;
-    padding: 80px 70px;
+    padding: 80px 70px 110px;
+
 }
 
 .mid-1 {
@@ -143,4 +144,295 @@ main {
     float: right;
     height: 100%;
     width: 80%;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    flex-direction: row;
+    color: hsl(193, 100%, 96%);
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: -1;
+    padding: 50px 0;
+    font-family: 'open Sans', sans-serif;
+}
+
+.foot-1 {
+    width: 30%;
+    padding-top: 35px;
+}
+
+.foot-1 img {
+    margin-right: 10px;
+    margin-bottom: 15px;
+    width: 150px;
+}
+
+.foot-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.foot-2 ul {
+    padding-right: 25px;
+
+}
+
+.foot-2 ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.foot-2 ul li a {
+    color: hsl(193, 100%, 96%);
+    text-decoration: none;
+}
+
+.foot-2 ul li a:hover {
+    text-decoration: underline;
+}
+
+.foot-3 svg {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid hsl(208, 11%, 55%);
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+.foot-3 svg path {
+    fill: hsl(193, 100%, 96%)
+}
+
+.foot-3 svg path:hover {
+    fill: hsl(322, 100%, 66%)
+}
+
+.foot-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 250px;
+    padding: 80px 0 0 20px;
+}
+
+.span {
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.pop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    left: 25%;
+    border-radius: 8px;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(125, 133, 140, 1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(125, 133, 140, 1);
+    box-shadow: 0px 0px 15px 0px rgba(125, 133, 140, 1);
+    background-color: white;
+}
+
+.btn2 {
+    margin-top: 20px;
+}
+
+
+
+.ft1 {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.ft1 img {
+    width: 15px;
+    height: 15px;
+}
+
+.ft1 p a {
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+}
+
+
+@media screen and (max-width:576px) {
+    .container {
+        background-image: url(./imgs/bg-hero-mobile.svg);
+    }
+
+    main {
+        padding: 0 20px 30px 20px;
+    }
+
+    header {
+        padding: 30px 20px;
+    }
+
+    button {
+        width: 90px;
+        height: 30px;
+    }
+
+    img {
+        width: 25%;
+
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: calc(100vh - 60px);
+    }
+
+    .hero-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .hero-1 h2 {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-1 p {
+        text-align: center;
+    }
+
+    .div1-btn {
+        width: 80%;
+    }
+
+    .hero-2 {
+        width: 100%;
+        padding-top: 70px;
+    }
+
+    .mid {
+        padding: 50px 20px;
+    }
+
+    .mid-1 {
+        flex-direction: column-reverse;
+    }
+
+    .mid-11 {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .mid-11 h3,
+    .mid-11 p {
+        text-align: center;
+    }
+
+    .mid-12 {
+        width: 100%;
+        padding: 30px 50px;
+    }
+
+    .mid-12 img {
+        float: none;
+        width: 100%;
+    }
+
+    .extra {
+        flex-direction: column;
+    }
+
+
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 100px;
+    }
+
+    .foot-1 {
+        width: 100%;
+        padding-top: 70px;
+
+    }
+
+    .foot-1 img {
+        margin: 0 10px 15px 15px;
+    }
+
+    .foot-2 {
+        flex-direction: column;
+        padding: 15px 0 15px 15px;
+        width: 100%;
+    }
+
+    .foot-2 ul {
+        padding: 0
+    }
+
+    .foot-3 {
+        align-items: center;
+        padding: 10px 20px;
+        height: auto;
+        width: 100%;
+    }
+
+    .foot-3 svg {
+        margin-bottom: 15px;
+    }
+
+    .span {
+        margin-top: 0;
+        font-size: 10px;
+    }
+
+    .pop {
+        width: 90%;
+        left: 0;
+        margin: 50px 20px 0px 15px;
+        padding: 0px 0 0px 0px;
+        height: 20%;
+    }
+
+    .pop h2 {
+        font-size: 16px;
+        padding: 20px 10px;
+        font-family: 'poppins',
+            sans-serif;
+        ;
+    }
+
+    .div1-btn {
+        width: 180px;
+        height: 35px;
+    }
+
+    .ft1 p {
+        padding: 0 15px 0 5px;
+        font-family: 'open Sans', sans-serif;
+        font-size: 14px
+    }
+
+    .ft1 {
+        padding: 0 15px 20px 0px;
+    }
 }
