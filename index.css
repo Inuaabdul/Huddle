@@ -29,6 +29,7 @@ button {
     -moz-box-shadow: -1px 0px 14px 0px rgba(179, 194, 210, 0.62);
     box-shadow: -1px 0px 14px 0px rgba(140, 169, 201, 0.62);
     background-color: white;
+    cursor: pointer;
 }
 
 button:hover {
